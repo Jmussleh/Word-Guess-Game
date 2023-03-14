@@ -1,8 +1,10 @@
-var WordBank = document.querySelector(".word-blanks");
-
-var chosenWord = ;
-
-var lettersInChosenWord = [];
+var Wins = 0
+var Losses = 0
+var StartGameBtn = document.querySelector("#StartGame");
+var possibleWords = ["function","javascript","document","index","variable","stylesheet"]
+var chosenWord = [];
+var chosenLetters = [];
+document.querySelector("#.word-blanks");
 
 function init() {
 
@@ -56,4 +58,4 @@ function resetGame() {
 
 }
 
-addEventListener.StartGame
+StartGameBtn.addEventListener("click", StartGame)
