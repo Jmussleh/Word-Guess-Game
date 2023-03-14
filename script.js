@@ -1,5 +1,8 @@
 // Create querySelectors for each class here
 var wordBlank = document.querySelector(".word-blanks");
+var Wins = document.querySelector("Wins");
+var Losses = document.querySelector("Losses");
+var TimerElement = document.querySelector("")
 
 
 // Create global variables needed here
